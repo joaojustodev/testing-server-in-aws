@@ -23,6 +23,10 @@ const list = [
         name: "Nootbook",
         price: 3000.0,
     },
+    {
+        name: "Mouse gamer",
+        price: 400.0,
+    },
 ];
 app.get("/", (req, res) => {
     res.status(200).json({ message: "OK!" });
