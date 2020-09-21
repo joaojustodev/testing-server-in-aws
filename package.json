@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node dist/server.js",
-    "dev": "nodemon -w src/**/*.ts --ignore src/**/*.spec.ts --exec ts-node-dev --respawn --transpile-only src/server.ts"
+    "dev": "nodemon -w src/**/*.ts --ignore src/**/*.spec.ts --exec ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "yarn tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",

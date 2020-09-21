@@ -14,6 +14,6 @@ app.get("/", (req, res) => {
     res.status(200).json({ message: "OK!" });
 });
 app.get("/:name", (req, res) => {
-    const name = req.params;
+    const { name } = req.params;
     res.status(201).json({ messaje: `Hellow ${name}` });
 });
