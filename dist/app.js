@@ -27,6 +27,10 @@ const list = [
         name: "Mouse gamer",
         price: 400.0,
     },
+    {
+        name: "Teclado gamer",
+        price: "390,00"
+    }
 ];
 app.get("/", (req, res) => {
     res.status(200).json({ message: "OK!" });
